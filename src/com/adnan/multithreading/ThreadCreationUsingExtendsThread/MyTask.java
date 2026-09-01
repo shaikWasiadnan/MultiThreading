@@ -15,7 +15,7 @@ public class MyTask extends Thread{
     }
 }
 /*
-What is Thread : Thread is a seperate executing path of execution in the same program.
+What is Thread : Thread is a seperate  path of execution in the same program.
 Whenever we create a class that extends Thread class then that class object will act as the thread object
 abd can be started using .start() method.
 Why do we override run() method ?
