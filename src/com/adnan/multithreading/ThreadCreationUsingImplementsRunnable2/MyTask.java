@@ -1,4 +1,4 @@
-package com.adnan.multithreading.ThreadCreationUsingImplementsRunnable;
+package com.adnan.multithreading.ThreadCreationUsingImplementsRunnable2;
 
 public class MyTask implements Runnable{
     @Override

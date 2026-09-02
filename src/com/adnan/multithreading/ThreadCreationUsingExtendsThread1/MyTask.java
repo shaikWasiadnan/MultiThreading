@@ -1,4 +1,4 @@
-package com.adnan.multithreading.ThreadCreationUsingExtendsThread;
+package com.adnan.multithreading.ThreadCreationUsingExtendsThread1;
 
 public class MyTask extends Thread{
     public MyTask(String name){

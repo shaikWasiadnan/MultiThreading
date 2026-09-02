@@ -1,4 +1,4 @@
-package com.adnan.multithreading.ThreadStates;
+package com.adnan.multithreading.ThreadStates3;
 
 public class MyThread extends Thread{
     public MyThread(String name){
