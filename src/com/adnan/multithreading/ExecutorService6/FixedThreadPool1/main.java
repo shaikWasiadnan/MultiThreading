@@ -24,6 +24,7 @@ public class main {
             SendingEmail email = new SendingEmail(c);
             ex.execute(email);
         }
+        ex.shutdown();
     }
 }
 /*
@@ -40,4 +41,13 @@ then it may take 10 hrs. But if iam using lets say 8 threads it may be completed
 and all tasks are customer list in this case will be shifted to Queue so they will be processed in
 FIFO manner at first first three three threads will take first three records then if any thread
 completes its work it will take 4th record then next thread 5th record etc..
+
+AFTER Completing all tasks present in QUEUE threads inside the Thread POOL will be ALIVE/RUNNING
+Even though we dont need them now so we need to explicitly call
+
+ex.shutdown() to make all threads dead
+
+The Queue which is being used to store all the tasks is a Blocking QUEUE
+
+types : Queue,Deque,PriorityQueue, BlockingQueue
  */
