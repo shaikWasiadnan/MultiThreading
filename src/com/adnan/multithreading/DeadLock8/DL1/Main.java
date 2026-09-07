@@ -1,4 +1,4 @@
-package com.adnan.multithreading.DeadLock8;
+package com.adnan.multithreading.DeadLock8.DL1;
 
 public class Main {
 
