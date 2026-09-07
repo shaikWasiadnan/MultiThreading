@@ -1,4 +1,4 @@
-package com.adnan.multithreading.JoinVSCountDownLatch9.countDownLatch;
+package com.adnan.multithreading.JoinVSCountDownLatch9.countDownLatch2;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

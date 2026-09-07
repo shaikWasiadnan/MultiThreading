@@ -1,4 +1,4 @@
-package com.adnan.multithreading.JoinVSCountDownLatch9.join;
+package com.adnan.multithreading.JoinVSCountDownLatch9.join1;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
